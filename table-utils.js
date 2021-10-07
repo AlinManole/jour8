@@ -1,4 +1,3 @@
-process.argv
 var arguments = process.argv.slice(2)
 
 var num = parseInt(arguments[0])
@@ -38,5 +37,10 @@ function addition(num) {
 
 addition(num)
 
-module.exports = addition;
-module.exports = multiply;
+module.exports = {
+    multiply, addition
+}
+
+
+// module.exports = addition;
+// module.exports = multiply;

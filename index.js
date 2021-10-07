@@ -1,1 +1,1 @@
-var multiAdd = require("./table-utils.js")
+var multiAdd = require("./table-utils")

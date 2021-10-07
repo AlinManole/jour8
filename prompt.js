@@ -1,8 +1,6 @@
 const prompt = require("prompt");
 const { resourceLimits } = require("worker_threads");
 
-  // Start the prompt
-  //
   prompt.start();
 
 function playAgain(){
