@@ -1,4 +1,3 @@
-process.argv
 var arguments = process.argv.slice(2)
 
 var num = parseInt(arguments[0])
